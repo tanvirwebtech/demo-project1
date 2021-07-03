@@ -1,0 +1,27 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    height: 300vh;
+}
+#hero{
+    background-image: url("./images/0010.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+.container{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.head-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    padding: 15px;
+}
+button{
+    padding: 10px 25px;
+}
