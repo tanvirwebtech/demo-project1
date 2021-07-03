@@ -1,5 +1,7 @@
+
+
 /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) { 
+@media (max-width: 414px) { 
     .logo{
         width: 100px;
         height: 30px;
@@ -9,13 +11,18 @@
         margin-top: -10px;
     }
     .hero-content h1 {
-        font-size: 3.6rem !important;
+        font-size: 2.6rem !important;
         text-align: center;
     }
     .hero-content a {
-        font-size: 1.5rem !important;
+        font-size: 1.2rem !important;
         padding: 11px 18px !important;
         width: 160px !important;
+    }
+    .hero-content p {
+        text-align: center !important;
+        font-size: 1.3rem !important; 
+        margin: 30px 30px !important;
     }
     .navbar{
         height: 60px;
@@ -42,16 +49,42 @@
         padding: 20px 0 60px 0;
     }
     .single-text-content a {
-        width: 30% !important; 
-        -webkit-transform: translate(-50%, 73%) !important;
-        transform: translate(-50%, 73%) !important;
-        margin-bottom: -30px;
+        font-size: 1.1rem;
+        padding: 14px 16px;
+        width: 40% !important;
+        margin-bottom: 28px;
+    
     }
     .opt-in-form {
-        margin-left: -250px !important;
+        margin-left: -80px !important;
     }
     .opt-in-form input[type="email"] {
-        width: 155% !important;
+        width: 118% !important;
+    }
+    .work-left-col .sign-up-btn {
+        font-size: 1.2rem !important;
+        width: 43% !important;
+        padding: 11px 25px;
+    }
+    .work-left-col .watch-btn{
+        font-size: 1.2rem !important;
+        width: 43% !important;
+    }
+    .card-text p {
+        font-size: 1.2rem !important;
+    }
+    .num-label .num {
+        font-size: 2.8rem !important;
+    }
+    .label{
+        font-size: 1.2rem;
+    }
+    .num-label::before {
+        top: -4px !important;
+        height: 72px !important;
+    }
+    .footer-widget img{
+        width: 100%;
     }
 }
 
